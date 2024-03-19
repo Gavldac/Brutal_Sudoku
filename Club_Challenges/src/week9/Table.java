@@ -72,27 +72,6 @@ public class Table {
 		return results;
 	}
 
-	public Integer getCell(int row, int col) {
-		return cells[row][col];
-	}
-
-	public void setCell(Integer value, int row, int col) {
-		cells[row][col] = value;
-	}
-	
-	/**
-	 * Method is used to load a row of values into
-	 * the puzzle that the Table class represents.
-	 * 
-	 * This method is created to allow a puzzle to be 
-	 * created row by row instead of cell by cell.
-	 * @param row - apporpriate values are 0 - 8 representing the [rows][] of a 2D array
-	 * @param Integer[] nums - should  be an array of length 9 to fit a standard sudoku puzzle
-	 */
-	public void setRow(int row, Integer[] nums) {
-		cells[row] = nums;
-	}
-
 	/**
 	 * Console output print command to print 
 	 * the entire puzzle in its current state.
