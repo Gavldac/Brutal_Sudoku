@@ -1,5 +1,11 @@
 package week9;
 
+/**
+* Class representing a 9x9 Sukoku table
+* This class can hold Integer values for each cell
+* as well as null if a value is not knonw.
+* @author Gavldac Klasmov (Edwin Casady)
+*/
 public class Table {
 
 	private Integer[][] cells = new Integer[9][9];
